@@ -4,10 +4,10 @@
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone <repository_url>
-   cd <your_project_directory>
-   ```
+ ```
+ git clone https://github.com/PiyushAryan/mobius.git
+ cd mobius
+ ```
 
 Install dependencies:
 
@@ -17,8 +17,16 @@ If you're using npm:
 npm install
 ```
 
-run the development server
+Run the development server
 
 ```
 npm run dev
 ```
+
+Build for Production
+
+```
+npm run build
+```
+A dist folder will generated
+
