@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import HowWeWork from './components/HowWeWork'
 import './App.css'
 
 function App() {
@@ -65,12 +66,12 @@ function App() {
         </div>
 
       </div>
-      <section>
+      <div>
         <div className='mx-20 my-20'>
-          <h2 className='text-[#0649E7] top'>How We Work?</h2>
-          
+        
+          <HowWeWork />
         </div>
-      </section>
+      </div>
     </>
   )
 }
