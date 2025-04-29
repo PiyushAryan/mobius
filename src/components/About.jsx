@@ -80,8 +80,8 @@ function About() {
                             className="w-72 rounded-2xl border border-blue-500 overflow-hidden shadow-md"
                         >
                             {/* Video Placeholder */}
-                            <div className="bg-white  h-40 flex items-center justify-center rounded">
-                                <div className="w-10 h-10 bg-[#0649E7]  rounded-full flex items-center justify-center">
+                            <div className="bg-white rounded-b-xl h-40 flex items-center justify-center overflow-hidden">
+                                <div className="w-10 h-10 bg-[#0649E7] rounded-full flex items-center justify-center">
                                     <svg
                                         className="w-5 h-5 text-white"
                                         fill="currentColor"
@@ -91,7 +91,6 @@ function About() {
                                     </svg>
                                 </div>
                             </div>
-
 
                             <div className="bg-[#0649E7] text-white p-4 relative h-32">
                                 <p className="text-sm leading-snug font-DM_Sans">
@@ -123,7 +122,7 @@ function About() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                         </svg>
                     </button>
-                    <button className="px-6 py-2 bg-blue-600 text-white rounded-full flex items-center">
+                    <button className="px-6 py-2 bg-blue-600 border-2 hover:border-blue-600 hover:bg-white hover:text-blue-600 text-white rounded-full flex items-center">
                         Get Started
                         <svg
                             className="w-4 h-4 ml-2"
